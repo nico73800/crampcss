@@ -73,7 +73,7 @@ MENU
   margin: auto 0px;
 }
 
-.nav-menu ul{
+.nav-menu ul {
   padding:0;
   margin: 0;
   display: flex;
@@ -81,11 +81,11 @@ MENU
   justify-content: center;
 }
 
-.nav-menu ul li{
+.nav-menu ul li {
   list-style-type:none;
 }
 
-.nav-menu ul li a{
+.nav-menu ul li a {
   display: inline-block;
   padding: 10px 5px;
   margin: 0px 5px;
@@ -111,6 +111,7 @@ CONTENU : ENSEMBLE
 
 ------------------------------------------------
 */
+
 @media screen and (min-width:700px) {
   div#contenu {
     width: 80%;
@@ -128,6 +129,7 @@ CONTENU : NEWS
 
 ------------------------------------------------
 */
+
 @media screen and (min-width:700px) {
   div#boxNews {
     width: 50%;
@@ -199,6 +201,7 @@ CONTENU : EVENTS
 
 ------------------------------------------------
 */
+
 @media screen and (min-width:700px) {
   div#boxEvents {
     width: 50%;
@@ -269,6 +272,7 @@ CONTENU : FLEXBOX
 
 ------------------------------------------------
 */
+
 @media screen and (min-width:700px) {
   div#flex-box {
     width: 50%;
