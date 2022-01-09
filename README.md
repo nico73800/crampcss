@@ -8,8 +8,8 @@ Framework JS et CSS pour vos pages HTML
 > Mise en place du menu de la page.
 
 #### A faire : 
->> Mise en place des différents conteneurs de le page
->> Mise en place du pieds de page
+-- Mise en place des différents conteneurs de le page
+-- Mise en place du pieds de page
 
 # Documentation
 
