@@ -94,10 +94,12 @@ MENU
                 /*
                 color: rgb(128, 35, 35);
                 */
+                background-color: #f5f4f4;
                 color: rgb(56, 131, 170);
                 width: 150px;
                 height: auto;
-                border: 1px solid #a7a7d8;
+                /* border: 1px solid #a7a7d8; */
+                border: 1px solid #e9e9ec;
                 border-radius: 3px;
                 text-decoration: none;
             }
@@ -133,13 +135,13 @@ CONTENU : ENSEMBLE
 /*
 ------------------------------------------------
 
-CONTENU : NEWS
+CONTENU : boite 1
 
 ------------------------------------------------
 */
 
 @media screen and (min-width:700px) {
-    div#boxNews {
+    div#boxOne {
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -148,7 +150,7 @@ CONTENU : NEWS
 }
 
 @media screen and (min-width:700px) {
-    div#boxNews article {
+    div#boxOne article {
         display: flex;
         flex-direction: column;
         margin-top: 12px;
@@ -162,16 +164,7 @@ CONTENU : NEWS
 }
 
 @media screen and (min-width:700px) {
-    div#boxNews article p {
-        color: black;
-        background-color: #f8f8f8;
-        font-weight: normal;
-        margin: 30px 2px;
-    }
-}
-
-@media screen and (min-width:700px) {
-    div#boxNews article h3 {
+    div#boxOne article h3 {
         color: white;
         font-weight: normal;
         background-color: rgb(228, 59, 59);
@@ -181,7 +174,16 @@ CONTENU : NEWS
 }
 
 @media screen and (min-width:700px) {
-    div#boxNews article a {
+    div#boxOne article p {
+        color: black;
+        background-color: #f8f8f8;
+        font-weight: normal;
+        margin: 30px 2px; 
+    }
+}
+
+@media screen and (min-width:700px) {
+    div#boxOne article a {
         color: black;
         background-color: #f8f8f8;
         border: 1px solid #e9e9ec;
@@ -193,7 +195,7 @@ CONTENU : NEWS
 }
 
 @media screen and (min-width:700px) {
-    div#boxNews article a:hover {
+    div#boxOne article a:hover {
         color: rgb(128, 35, 35);
         font-weight: bold;
         background-color: #f5f4f4;
@@ -205,13 +207,13 @@ CONTENU : NEWS
 /*
 ------------------------------------------------
 
-CONTENU : EVENTS
+CONTENU : boite 2
 
 ------------------------------------------------
 */
 
 @media screen and (min-width:700px) {
-    div#boxEvents {
+    div#boxTwo {
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -220,7 +222,7 @@ CONTENU : EVENTS
 }
 
 @media screen and (min-width:700px) {
-    div#boxEvents article {
+    div#boxTwo article {
         display: flex;
         flex-direction: column;
         margin-top: 12px;
@@ -234,7 +236,7 @@ CONTENU : EVENTS
 }
 
 @media screen and (min-width:700px) {
-    div#boxEvents article p {
+    div#boxTwo article p {
         color: black;
         background-color: #f8f8f8;
         font-weight: normal;
@@ -243,7 +245,7 @@ CONTENU : EVENTS
 }
 
 @media screen and (min-width:700px) {
-    div#boxEvents article h3 {
+    div#boxTwo article h3 {
         color: white;
         font-weight: normal;
         background-color: rgb(228, 59, 59);
@@ -253,7 +255,7 @@ CONTENU : EVENTS
 }
 
 @media screen and (min-width:700px) {
-    div#boxEvents article a {
+    div#boxTwo article a {
         color: black;
         background-color: #f8f8f8;
         border: 1px solid #e9e9ec;
@@ -265,7 +267,7 @@ CONTENU : EVENTS
 }
 
 @media screen and (min-width:700px) {
-    div#boxEvents article a:hover {
+    div#boxTwo article a:hover {
         color: rgb(128, 35, 35);
         font-weight: bold;
         background-color: #f5f4f4;
