@@ -153,8 +153,9 @@ CONTENU : boite 1
     div#boxOne article {
         display: flex;
         flex-direction: column;
-        margin-top: 12px;
-        margin-bottom: 12px;
+        /* margin-top: 12px;
+        margin-bottom: 12px; */
+        margin: 12px 4px;
         background-color: #f8f8f8;
         border: 1px solid #e9e9ec;
         border-radius: 2%;
@@ -225,8 +226,9 @@ CONTENU : boite 2
     div#boxTwo article {
         display: flex;
         flex-direction: column;
-        margin-top: 12px;
-        margin-bottom: 12px;
+        /* margin-top: 12px;
+        margin-bottom: 12px; */
+        margin: 12px 4px;
         background-color: #f8f8f8;
         border: 1px solid #e9e9ec;
         border-radius: 2%;
